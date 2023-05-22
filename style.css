@@ -1,0 +1,55 @@
+
+
+body {
+    margin: 40px;
+  }
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.underlined-header {
+    border-bottom: 2px solid black;
+  }
+
+  .img-fluid {
+    max-width: 80%;
+    height: auto;
+    position: center;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 70%; /* aspect ratio */
+  }
+
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .resizable-video {
+    width: 100%; /* Set the desired width */
+    height: auto; /* Let the height adjust automatically */
+  }
+
+  .scaled-image {
+    width: 60%; /* Set the desired width */
+    height: auto; /* Let the height adjust automatically */
+    position: center;
+  }
+
+  .scaled-image2 {
+    width: 30%; /* Set the desired width */
+    height: auto; /* Let the height adjust automatically */
+    position: center;
+  }
