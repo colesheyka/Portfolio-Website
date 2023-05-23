@@ -51,5 +51,30 @@ h3 {
   .scaled-image2 {
     width: 30%; /* Set the desired width */
     height: auto; /* Let the height adjust automatically */
-    position: center;
+
+  }
+
+  #back-to-top {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .shift-img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  .shift-img2 {
+    max-width: 83%;
+    height: auto;
+    margin-left: 45px;
   }
