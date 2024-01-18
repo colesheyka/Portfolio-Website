@@ -50,6 +50,11 @@ h3 {
   height: auto; /* Let the height adjust automatically */
 }
 
+.scaled-image3 {
+  width: 20%; /* Set the desired width */
+  height: auto; /* Let the height adjust automatically */
+}
+
 #back-to-top {
   display: none; /* Hide the button by default */
   position: fixed;
