@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
 // Show or hide the button based on the user's scroll position
 window.addEventListener("scroll", function() {
-    if (window.pageYOffset > 6050) {
-      // Show the button when the user has scrolled down 300 pixels
+    if (window.scrollY > 5300) {
       backToTopButton.style.display = "block";
     } else {
       // Hide the button when the user is near the top of the page
@@ -14,7 +13,6 @@ window.addEventListener("scroll", function() {
 
     // Scroll to top when the button is clicked
     backToTopButton.addEventListener("click", function() {
-      console.log("Button clicked!");
       window.scrollTo({
         top: 0,
         behavior: "smooth"
